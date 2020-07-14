@@ -1,0 +1,38 @@
+input {
+    margin:4px;
+    padding:6px;
+    border-radius: 3px;
+    border:1px solid;
+    width:600px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li {
+    list-style:none;
+    padding:4px;
+    margin:4px;
+    align-self:left;
+    background-color: #efefef;
+}
+
+img.in-chat {
+    width:50px;
+    height:50px;
+}
+
+.chats{
+    width:620px;
+    border-radius: 2px;
+    border:1px solid;
+    overflow-y:scroll;
+    height:150px;
+}
+
+.chat-info {
+    font-size:0.8rem;
+    font-weight:bold;
+}
